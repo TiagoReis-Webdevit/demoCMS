@@ -1,0 +1,40 @@
+body { margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; font-size: 13px; color: black; background-color: gray; }
+h1, h2, h3 { margin-top: 0px; font-weight: bold; color: gray; border-bottom: 1px solid gray; }
+h1 { font-size: 177%; }
+h2 { font-size: 136%; margin-left: 10px; }
+h3 { font-size: 100%; margin-left: 20px; }
+p, ul, ol { margin-bottom: 1.6em; line-height: 180%; color: black; }
+li { list-style: none; }
+.h2List { margin-left: 10px; }
+.h3List { margin-left: 20px; }
+blockquote { font-style: italic; }
+a { color: #D33333; }
+a:hover { text-decoration: none; }
+hr { display: none; }
+img { border: 0px; }
+img.left { float: left; margin: 0px 15px 0px 0px; }
+img.right { float: right; margin: 0px 0px 0px 15px; }
+/* Header */
+#header { width: 100%; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+.box { width: 850px; margin: 5px auto 0px auto; }
+.box .boxHeaderTop { height: 14px; background-image: url(../images/boxHeader.png); background-repeat: no-repeat; }
+.box .boxHeaderBody { background-image: url(../images/boxInner.png); background-repeat: repeat-y; }
+.box .boxHeaderBodyContent { padding: 5px 0px 5px 20px; }
+.box .boxHeaderPageContent { padding: 5px 20px 5px 20px; }
+.box .boxHeaderFooter { height: 23px; background-image: url(../images/boxBottom.png); background-repeat: no-repeat; }
+/* Menu */
+#menu { width: 100%; height: 40px; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; background: url(../images/gradientMenu.png) repeat-x; }
+#menu ul { list-style: none; text-align: center; padding: 7px 0px 10px 0px; margin: 5px 0px 0px 0px; }
+#menu li { display: inline; }
+#menu a { padding: 0px 10px 0px 10px; text-align: center; text-decoration: none; text-transform: uppercase; font-size: 14px; color: #FFFFFF; font-weight: bold; }
+#menu a:hover, #menu a:active { color: gray; }
+/* Page */
+#page { width: 100%; margin: 10px 0px 0px 0px; }
+/* Content */
+.twoCol { width: 100%; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; table-layout: fixed; }
+.twoCol .col1 { width: 370px; padding: 15px 0px 0px 0px; }
+.twoCol .col2 { width: 370px; padding: 15px 0px 0px 0px; }
+/* Footer */
+#footer { clear: both; width: 1010px; margin: 0px auto 0px auto; padding: 10px 0px 10px 0px; }
+#footer p { margin: 0px 0px 0px 0px; text-align: center; font-size: 12px; }
+#footer a { color: #D33333; }
